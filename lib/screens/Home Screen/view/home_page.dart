@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:productpulseapp/screens/Home%20Screen/controller/home_controller.dart';
-import 'package:productpulseapp/screens/Home%20Screen/view/component/home_mobile_widget.dart';
-import 'package:productpulseapp/screens/Home%20Screen/view/component/home_web_widget.dart';
-import 'package:productpulseapp/screens/search/controller/search_controller.dart';
-import 'package:productpulseapp/widgets/common%20components/common_layout.dart';
+import 'package:prodpulseversion3/screens/Home%20Screen/controller/home_controller.dart';
+import 'package:prodpulseversion3/screens/Home%20Screen/view/component/home_mobile_widget.dart';
+import 'package:prodpulseversion3/screens/Home%20Screen/view/component/home_web_widget.dart';
+import 'package:prodpulseversion3/screens/search/controller/search_controller.dart';
+import 'package:prodpulseversion3/widgets/common%20components/common_layout.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

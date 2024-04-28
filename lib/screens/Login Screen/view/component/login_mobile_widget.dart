@@ -2,12 +2,12 @@ import 'package:animation_wrappers/animations/faded_slide_animation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:productpulseapp/constant/app_colors.dart';
-import 'package:productpulseapp/constant/app_strings.dart';
-import 'package:productpulseapp/screens/Home%20Screen/view/home_page.dart';
-import 'package:productpulseapp/screens/Login%20Screen/controller/login_controller.dart';
-import 'package:productpulseapp/widgets/common%20components/custom_button.dart';
-import 'package:productpulseapp/widgets/common%20components/entry_field.dart';
+import 'package:prodpulseversion3/constant/app_colors.dart';
+import 'package:prodpulseversion3/constant/app_strings.dart';
+import 'package:prodpulseversion3/screens/Home%20Screen/view/home_page.dart';
+import 'package:prodpulseversion3/screens/Login%20Screen/controller/login_controller.dart';
+import 'package:prodpulseversion3/widgets/common%20components/custom_button.dart';
+import 'package:prodpulseversion3/widgets/common%20components/entry_field.dart';
 
 class LoginMobileWidget extends StatelessWidget {
   LoginMobileWidget({super.key});

@@ -1,6 +1,6 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:productpulseapp/screens/Home%20Screen/modal/news_model.dart';
+import 'package:prodpulseversion3/screens/Home%20Screen/modal/news_model.dart';
 
 class NewsItemWidget extends StatelessWidget {
   final NewsModel newsModel;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:productpulseapp/screens/Home%20Screen/modal/product_model.dart';
+import 'package:prodpulseversion3/screens/Home%20Screen/modal/product_model.dart';
 
 class ProductDetailMobile extends StatelessWidget {
   final ProductModel model;

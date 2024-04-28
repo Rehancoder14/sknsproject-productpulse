@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:productpulseapp/screens/Home%20Screen/controller/home_controller.dart';
-import 'package:productpulseapp/screens/Login%20Screen/controller/login_controller.dart';
-import 'package:productpulseapp/screens/search/controller/search_controller.dart';
-import 'package:productpulseapp/screens/search/search_page.dart';
+import 'package:prodpulseversion3/screens/Home%20Screen/controller/home_controller.dart';
+import 'package:prodpulseversion3/screens/Login%20Screen/controller/login_controller.dart';
+import 'package:prodpulseversion3/screens/search/controller/search_controller.dart';
+import 'package:prodpulseversion3/screens/search/search_page.dart';
 
 void main() {
   runApp(

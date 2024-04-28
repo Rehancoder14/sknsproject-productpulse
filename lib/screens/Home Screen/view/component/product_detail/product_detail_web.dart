@@ -3,9 +3,9 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
-import 'package:productpulseapp/constant/app_colors.dart';
-import 'package:productpulseapp/screens/Home%20Screen/controller/home_controller.dart';
-import 'package:productpulseapp/screens/Home%20Screen/modal/output_sentimental_model.dart';
+import 'package:prodpulseversion3/constant/app_colors.dart';
+import 'package:prodpulseversion3/screens/Home%20Screen/controller/home_controller.dart';
+import 'package:prodpulseversion3/screens/Home%20Screen/modal/output_sentimental_model.dart';
 
 class ProductDetailWeb extends StatelessWidget {
   final PageController pageController;

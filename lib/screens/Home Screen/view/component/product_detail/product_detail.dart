@@ -1,10 +1,10 @@
 // import 'package:flutter/material.dart';
 // import 'package:get/get.dart';
-// import 'package:productpulseapp/screens/Home%20Screen/controller/home_controller.dart';
-// import 'package:productpulseapp/screens/Home%20Screen/modal/product_model.dart';
-// import 'package:productpulseapp/screens/Home%20Screen/view/component/product_detail/product_detail_mobile.dart';
-// import 'package:productpulseapp/screens/Home%20Screen/view/component/product_detail/product_detail_web.dart';
-// import 'package:productpulseapp/widgets/common%20components/common_layout.dart';
+// import 'package:prodpulseversion3/screens/Home%20Screen/controller/home_controller.dart';
+// import 'package:prodpulseversion3/screens/Home%20Screen/modal/product_model.dart';
+// import 'package:prodpulseversion3/screens/Home%20Screen/view/component/product_detail/product_detail_mobile.dart';
+// import 'package:prodpulseversion3/screens/Home%20Screen/view/component/product_detail/product_detail_web.dart';
+// import 'package:prodpulseversion3/widgets/common%20components/common_layout.dart';
 
 // class ProductDetail extends StatefulWidget {
 //   final ProductModel model;

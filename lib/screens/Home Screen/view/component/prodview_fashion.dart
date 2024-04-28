@@ -1,7 +1,7 @@
 // // ignore_for_file: unnecessary_null_comparison
 
 // import 'package:flutter/material.dart';
-// import 'package:productpulseapp/screens/Home%20Screen/modal/productmodel.dart';
+// import 'package:prodpulseversion3/screens/Home%20Screen/modal/productmodel.dart';
 
 // class ProductViewFashion extends StatelessWidget {
 //   const ProductViewFashion({super.key, required this.fashion});
