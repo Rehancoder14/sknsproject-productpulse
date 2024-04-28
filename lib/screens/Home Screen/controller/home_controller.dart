@@ -2,12 +2,12 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/cart_model.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/new_prod_model.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/news_model.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/output_sentimental_model.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/product_model.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/repository/home_repo.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/cart_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/new_prod_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/news_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/output_sentimental_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/product_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/repository/home_repo.dart';
 
 class HomeController extends GetxController {
   @override
@@ -122,5 +122,13 @@ class HomeController extends GetxController {
   disposeProdModel() {
     prodModel = null;
     selectedProductModel = null;
+  }
+
+  joinList(List<String> list) {
+    String data = '';
+    for (int i = 0; i < list.length; i++) {
+      data += '${'${list[i]}, '} ';
+    }
+    return data;
   }
 }

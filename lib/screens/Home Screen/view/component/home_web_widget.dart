@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:prodpulseversion3/constant/app_colors.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/controller/home_controller.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/view/component/product_detail/product_detail_web.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/view/component/web_component/new_item_widget.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/view/component/web_component/product_web_view.dart';
-import 'package:prodpulseversion3/screens/cartscreen/cart_screen.dart';
-import 'package:url_launcher/url_launcher.dart';
+import 'package:productpulseapp/constant/app_colors.dart';
+import 'package:productpulseapp/screens/Home%20Screen/controller/home_controller.dart';
+import 'package:productpulseapp/screens/Home%20Screen/view/component/product_detail/product_detail_web.dart';
+import 'package:productpulseapp/screens/Home%20Screen/view/component/web_component/new_item_widget.dart';
+import 'package:productpulseapp/screens/Home%20Screen/view/component/web_component/product_web_view.dart';
+import 'package:productpulseapp/screens/cartscreen/cart_screen.dart';
 
 class HomeWebWidget extends StatefulWidget {
   const HomeWebWidget({super.key});
@@ -103,21 +102,11 @@ class _HomeWebWidgetState extends State<HomeWebWidget> {
                         InkWell(
                           onTap: () async {
                             await Get.find<HomeController>().getData(
-                              'Shirts',
+                              'mobile',
                             );
                           },
                           child: const SidebarCard(
-                            image: 'assets/images/10pic.jpg',
-                          ),
-                        ),
-                        InkWell(
-                          onTap: () async {
-                            await Get.find<HomeController>().getData(
-                              'Mobile',
-                            );
-                          },
-                          child: const SidebarCard(
-                            image: 'assets/images/5pic.jpg',
+                            image: 'assets/images/mobile.jpeg',
                           ),
                         ),
                         InkWell(
@@ -127,17 +116,27 @@ class _HomeWebWidgetState extends State<HomeWebWidget> {
                             );
                           },
                           child: const SidebarCard(
-                            image: 'assets/images/2pic.jpg',
+                            image: 'assets/images/tvs.jpeg',
                           ),
                         ),
                         InkWell(
                           onTap: () async {
                             await Get.find<HomeController>().getData(
-                              'Laptop',
+                              'grocery',
                             );
                           },
                           child: const SidebarCard(
-                            image: 'assets/images/4pic.jpg',
+                            image: 'assets/images/grocery.jpeg',
+                          ),
+                        ),
+                        InkWell(
+                          onTap: () async {
+                            await Get.find<HomeController>().getData(
+                              'fashion',
+                            );
+                          },
+                          child: const SidebarCard(
+                            image: 'assets/images/cloths.jpeg',
                           ),
                         ),
                       ],
@@ -160,6 +159,7 @@ class _HomeWebWidgetState extends State<HomeWebWidget> {
                               ),
                             )
                           : PageView.builder(
+                              physics: const NeverScrollableScrollPhysics(),
                               controller: controllerPage,
                               itemCount: 2,
                               itemBuilder: (BuildContext context, int index) {
@@ -191,17 +191,17 @@ class _HomeWebWidgetState extends State<HomeWebWidget> {
                                 itemBuilder: (context, index) {
                                   return GestureDetector(
                                     onTap: () async {
-                                      String url =
-                                          controller.newsList[index].url!;
-                                      if (await canLaunch(url)) {
-                                        await launch(
-                                          url,
-                                          forceSafariVC: false,
-                                          forceWebView: false,
-                                        );
-                                      } else {
-                                        throw 'Could not launch $url';
-                                      }
+                                      // String url =
+                                      //     controller.newsList[index].url!;
+                                      // if (await canLaunch(url)) {
+                                      //   await launch(
+                                      //     url,
+                                      //     forceSafariVC: false,
+                                      //     forceWebView: false,
+                                      //   );
+                                      // } else {
+                                      //   throw 'Could not launch $url';
+                                      // }
                                     },
                                     child: NewsItemWidget(
                                       newsModel: controller.newsList[index],

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:prodpulseversion3/screens/Login%20Screen/view/component/login_mobile_widget.dart';
-import 'package:prodpulseversion3/screens/Login%20Screen/view/component/login_web_widget.dart';
-import 'package:prodpulseversion3/widgets/common%20components/common_layout.dart';
+import 'package:productpulseapp/screens/Login%20Screen/view/component/login_mobile_widget.dart';
+import 'package:productpulseapp/screens/Login%20Screen/view/component/login_web_widget.dart';
+import 'package:productpulseapp/widgets/common%20components/common_layout.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});

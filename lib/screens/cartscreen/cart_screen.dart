@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/controller/home_controller.dart';
+import 'package:productpulseapp/screens/Home%20Screen/controller/home_controller.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class CartScreen extends StatefulWidget {

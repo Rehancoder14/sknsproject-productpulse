@@ -4,11 +4,11 @@ import 'package:flutter/widgets.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:get/get.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
-import 'package:prodpulseversion3/constant/app_colors.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/controller/home_controller.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/view/component/home_web_widget.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/view/home_page.dart';
-import 'package:prodpulseversion3/screens/search/controller/search_controller.dart';
+import 'package:productpulseapp/constant/app_colors.dart';
+import 'package:productpulseapp/screens/Home%20Screen/controller/home_controller.dart';
+import 'package:productpulseapp/screens/Home%20Screen/view/component/home_web_widget.dart';
+import 'package:productpulseapp/screens/Home%20Screen/view/home_page.dart';
+import 'package:productpulseapp/screens/search/controller/search_controller.dart';
 
 class SearchPage extends StatelessWidget {
   const SearchPage({super.key});
@@ -109,7 +109,7 @@ class SearchPage extends StatelessWidget {
                     child: const Column(
                       children: [
                         SidebarCard(
-                          image: 'assets/images/1pic.jpg',
+                          image: 'assets/images/mobile.jpeg',
                         ),
                         Text(
                           'Mobile',
@@ -130,7 +130,7 @@ class SearchPage extends StatelessWidget {
                     child: const Column(
                       children: [
                         SidebarCard(
-                          image: 'assets/images/4pic.jpg',
+                          image: 'assets/images/tvs.jpeg',
                         ),
                         Text(
                           'TVs',
@@ -144,17 +144,17 @@ class SearchPage extends StatelessWidget {
                   GestureDetector(
                     onTap: () async {
                       await Get.find<HomeController>().getData(
-                        'Laptops',
+                        'grocery',
                       );
                       Get.to(() => const HomePage());
                     },
                     child: const Column(
                       children: [
                         SidebarCard(
-                          image: 'assets/images/15pic.jpg',
+                          image: 'assets/images/grocery.jpeg',
                         ),
                         Text(
-                          'Laptops',
+                          'grocery',
                           style: TextStyle(
                             fontSize: 18,
                           ),
@@ -165,17 +165,17 @@ class SearchPage extends StatelessWidget {
                   GestureDetector(
                     onTap: () async {
                       await Get.find<HomeController>().getData(
-                        'Laptops',
+                        'fashion',
                       );
                       Get.to(() => const HomePage());
                     },
                     child: const Column(
                       children: [
                         SidebarCard(
-                          image: 'assets/images/15pic.jpg',
+                          image: 'assets/images/cloths.jpeg',
                         ),
                         Text(
-                          'Laptop',
+                          'Cloths',
                           style: TextStyle(
                             fontSize: 18,
                           ),

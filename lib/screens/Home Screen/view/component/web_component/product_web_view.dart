@@ -2,8 +2,8 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/controller/home_controller.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/product_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/controller/home_controller.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/product_model.dart';
 
 class ProductView extends StatelessWidget {
   final PageController? controllerPage;

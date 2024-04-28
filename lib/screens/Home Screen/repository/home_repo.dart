@@ -1,13 +1,13 @@
 import 'dart:convert';
 import 'dart:developer';
 
-import 'package:prodpulseversion3/constant/api_constants.dart';
+import 'package:productpulseapp/constant/api_constants.dart';
 import 'package:http/http.dart' as http;
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/cart_model.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/new_prod_model.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/news_model.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/output_sentimental_model.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/modal/product_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/cart_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/new_prod_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/news_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/output_sentimental_model.dart';
+import 'package:productpulseapp/screens/Home%20Screen/modal/product_model.dart';
 
 class HomeRepository {
   HomeRepository._();

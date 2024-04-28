@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:prodpulseversion3/constant/app_colors.dart';
+import 'package:productpulseapp/constant/app_colors.dart';
 
 class Navbar extends StatelessWidget {
   const Navbar({

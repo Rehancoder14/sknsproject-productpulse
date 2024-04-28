@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:prodpulseversion3/screens/Home%20Screen/controller/home_controller.dart';
+import 'package:productpulseapp/screens/Home%20Screen/controller/home_controller.dart';
 
 class HomeMobileWidget extends StatefulWidget {
   HomeMobileWidget({super.key});
